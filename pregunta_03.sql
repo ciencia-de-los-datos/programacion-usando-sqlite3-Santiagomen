@@ -22,10 +22,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT *
-  FROM (
-       SELECT *
-         FROM tbl1
-        ORDER BY c14 DESC
-       )
- WHERE rownum <= 5
+SELECT * FROM tbl1 ORDER BY c14 LIMIT 5 
