@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT count(*) FROM tbl1 WHERE CAST(SUBSTR(c14,1,4) AS INTEGER) = 2018
+SELECT COUNT(*) FROM tbl1 WHERE CAST(SUBSTR(c14,1,4) AS INTEGER) = 2018
