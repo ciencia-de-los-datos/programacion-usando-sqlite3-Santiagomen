@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT count(c13) FROM tbl1 WHERE strftime('%Y',c14) = '2018'
